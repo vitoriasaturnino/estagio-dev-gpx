@@ -1,5 +1,6 @@
 import './App.css';
 import Relogio from './components/Relogio';
+import BolaTimida from './components/BolaTimida';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           </div>
         </div>
         <div className="column">
-          <p>Bola timida</p>
+          <BolaTimida/>
         </div>
       </header>
     </div>

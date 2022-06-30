@@ -38,3 +38,29 @@
   justify-content: center;
   align-items: center;
 }
+
+.container_ball {
+  background-color: rgba(210, 105, 30, 0);
+  min-width: 45rem;
+  min-height: 42rem;
+  padding: 15px;
+
+}
+
+.ball {
+  position: inherit;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #eaef4c;
+  transition-timing-function: ease;
+  transition-duration: 3s;
+
+  transition-duration: 1s;
+}
+
+.ball:hover {
+  transform: translate3d(600px, 600px, 600px);
+  transform:scale3d(650px, 650px, 650px);
+  transition-delay: 2s;
+}

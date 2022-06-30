@@ -1,5 +1,6 @@
 import './App.css';
 import Relogio from './components/Relogio';
+import ManipuladorDeItens from './components/ManipuladorDeItens';
 import BolaTimida from './components/BolaTimida';
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
           <Relogio/>
           </div>
           <div className="row_2">
-            <p>Manipulacao de items</p>
+            <ManipuladorDeItens/>
           </div>
         </div>
         <div className="column">
